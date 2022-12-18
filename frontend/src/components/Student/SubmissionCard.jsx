@@ -53,7 +53,7 @@ export default function SubmissionCard(props) {
     // if (isSuccess && !isError) {
     //   setMsg("Assignment Submitted!");
     // }
-    sendSubmissionEmail(user.name, user.email, `You've successfully submitted ${submissionData.assignmentname}`);
+    // sendSubmissionEmail(user.name, user.email, `You've successfully submitted ${submissionData.assignmentname}`);
   };
 
 

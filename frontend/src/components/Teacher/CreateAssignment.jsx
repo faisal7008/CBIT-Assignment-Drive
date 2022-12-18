@@ -65,7 +65,7 @@ export default function CreateAssignment(props) {
     if (isSuccess && !isError) {
       setMsg("Assignment created successfully!");
     }
-    sendingMailsToStudents(assignmentData);
+    // sendingMailsToStudents(assignmentData);
     
   };
 
